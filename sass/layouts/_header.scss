@@ -1,11 +1,20 @@
 // -- GENERAL --
-
+header{
+  background: url("../img/mobile/image-header.jpg") no-repeat;
+  background-size: 100% 520px;
+  padding-top: 30px;
+  width: 100%;
+  height: 520px;
+  color: white;
+  font-family: 'Fraunces', serif!important;
+  letter-spacing: 2px;
+}
 
 
 // -- MOBILE --
 @media (max-width: $mobile){
   .top-site{
-    margin: 20px 10px 0px 10px;
+    margin: 0px 20px 0px 20px;
     &__mobile{
       display: flex;
       justify-content: space-between;
@@ -19,6 +28,19 @@
     &__nav{
       margin-top: 40px;
       width: 100%;
+    }
+  }
+  .top-content{
+    & > h2{
+      margin-top: 70px;
+      font-size: 42px;
+      text-align: center;
+      letter-spacing: 5px;
+    }
+    & > img{
+      margin: 40px auto;
+      display: block;
+      text-align: center;
     }
   }
 
