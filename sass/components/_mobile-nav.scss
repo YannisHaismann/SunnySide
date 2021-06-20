@@ -1,0 +1,43 @@
+.top-site__nav{
+  position: relative;
+  background-color: white;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: 320px;
+  width: 300px;
+  color: $Very-dark-grayish-blue;
+  & > a{
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    margin: 20px;
+    font-size: 20px;
+  }
+  & > a:visited{
+    color: $Very-dark-grayish-blue;
+  }
+  &::after{
+    content: ' ';
+    width: 0px;
+    height: 0px;
+    border-bottom: 24px solid white;
+    border-left: 24px solid transparent;
+    position: absolute;
+    top: -24px;
+    right: 0px;
+  }
+  &__contact{
+    margin: auto!important;
+    margin-top: 30px!important;
+    border-radius: 30px;
+    background-color: $Yellow;
+    color: black!important;
+    font-family: 'Fraunces', serif!important;
+    padding: 15px;
+    width: 120px;
+    font-weight: 900;
+  }
+  &__about{
+    margin-top: 30px!important;
+  }
+}

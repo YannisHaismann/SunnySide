@@ -1,0 +1,25 @@
+// -- GENERAL --
+
+
+
+// -- MOBILE --
+@media (max-width: $mobile){
+  .top-site{
+    margin: 20px 10px 0px 10px;
+    &__mobile{
+      display: flex;
+      justify-content: space-between;
+      & > h1{
+        margin: 0px;
+      }
+      & > .mobile-hamburger{
+        margin-top: 6px;
+      }
+    }
+    &__nav{
+      margin-top: 40px;
+      width: 100%;
+    }
+  }
+
+}
