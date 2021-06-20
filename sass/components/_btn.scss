@@ -1,5 +1,19 @@
+@media (max-width: $mobile){
+  .top-site__nav__contact{
+    border-radius: 30px;
+    background-color: $Yellow;
+    color: black!important;
+    font-family: 'Fraunces', serif!important;
+    padding: 15px;
+    font-weight: 900;
+  }
+}
+
 @media (min-width: $mobile){
   .top-site__nav__contact{
     width: 140px;
+    background-color: rgba(120, 210, 254, 0.5);
+    padding: 15px 25px 15px 25px;
+    border-radius: 25px;
   }
 }

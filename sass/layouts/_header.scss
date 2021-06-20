@@ -7,13 +7,12 @@ header{
   letter-spacing: 2px;
 }
 
-.top-site__nav{
-  display: none;
-}
-
 
 // -- MOBILE --
 @media (max-width: $mobile){
+  .top-site__nav{
+    display: none;
+  }
   header{
     background: url("../img/mobile/image-header.jpg") no-repeat;
     background-size: 100% 520px;
@@ -53,20 +52,71 @@ header{
 
 // -- TABLET --
 @media (max-width: $desktop) and (min-width: $mobile){
+
+  @media(max-width: 700px){
+    .top-site{
+        display: flex;
+        flex-direction: column;
+      &__mobile{
+        text-align: center;
+      }
+      &__nav{
+        margin: auto !important;
+        width: 98%!important;
+        text-align: center!important;
+      }
+    }
+  }
+  .top-site{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
   .mobile-hamburger{
     display: none;
   }
-
   header{
-    background: url("../img/desktop/image-header.jpg") no-repeat;
-    background-size: 100% 520px;
+    background: url("../img/desktop/image-header.jpg") no-repeat, rgb(61, 190, 255);
+    background-size: 950px 520px;
+    background-position: bottom;
   }
 
-  .top-site{
-   &__mobile{
-     & > h1{
-       margin: 0px;
-     }
-   }
+  .top-site__mobile{
+    & > h1{
+      margin-left: 30px;
+    }
   }
+
+  .top-site__nav{
+    margin: auto 40px;
+    width: 70%;
+    background: none;
+    text-align: right;
+    &::after{
+      border: none;
+    }
+    & > a {
+      margin-left: 20px;
+      font-family: 'barlow', sans-serif;
+      letter-spacing: 1px;
+    }
+    &__projects{
+      margin-right: 10px;
+    }
+    &__contact{
+      font-family: 'fraunces', serif!important;
+    }
+  }
+
+  .top-content{
+    & > h2{
+      font-size: 48px;
+      text-align: center;
+    }
+    & > img{
+      margin: 40px auto;
+      display: block;
+    }
+  }
+
 }
