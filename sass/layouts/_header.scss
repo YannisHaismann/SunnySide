@@ -1,8 +1,5 @@
 // -- GENERAL --
 header{
-  background: url("../img/mobile/image-header.jpg") no-repeat;
-  background-size: 100% 520px;
-  padding-top: 30px;
   width: 100%;
   height: 520px;
   color: white;
@@ -10,9 +7,18 @@ header{
   letter-spacing: 2px;
 }
 
+.top-site__nav{
+  display: none;
+}
+
 
 // -- MOBILE --
 @media (max-width: $mobile){
+  header{
+    background: url("../img/mobile/image-header.jpg") no-repeat;
+    background-size: 100% 520px;
+    padding-top: 30px;
+  }
   .top-site{
     margin: 0px 20px 0px 20px;
     &__mobile{
@@ -43,5 +49,24 @@ header{
       text-align: center;
     }
   }
+}
 
+// -- TABLET --
+@media (max-width: $desktop) and (min-width: $mobile){
+  .mobile-hamburger{
+    display: none;
+  }
+
+  header{
+    background: url("../img/desktop/image-header.jpg") no-repeat;
+    background-size: 100% 520px;
+  }
+
+  .top-site{
+   &__mobile{
+     & > h1{
+       margin: 0px;
+     }
+   }
+  }
 }
