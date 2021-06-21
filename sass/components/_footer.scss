@@ -56,3 +56,45 @@
   }
 
 }
+
+// -- DESKTOP --
+@media (min-width: $desktop){
+  .footer-list-img{
+    & > div{
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+  .milk-bottles{
+    background: url("../img/mobile/image-gallery-milkbottles.jpg");
+  }
+  .orange{
+    background: url("../img/mobile/image-gallery-orange.jpg");
+  }
+  .cone{
+    background: url("../img/mobile/image-gallery-cone.jpg");
+  }
+  .sugar{
+    background: url("../img/mobile/image-gallery-sugar-cubes.jpg");
+  }
+
+  .footer-footer{
+    height: 200px;
+    &__nav{
+      text-align: center;
+      & > a {
+        margin: 20px;
+        font-size: 17px;
+      }
+    }
+    &__social-medias{
+      text-align: center;
+      & > a{
+        margin: 10px;
+      }
+    }
+  }
+
+}

@@ -395,6 +395,47 @@ ol {
     margin: 10px;
   }
 }
+@media (min-width: 1440px) {
+  .footer-list-img > div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .milk-bottles {
+    background: url("../img/mobile/image-gallery-milkbottles.jpg");
+  }
+
+  .orange {
+    background: url("../img/mobile/image-gallery-orange.jpg");
+  }
+
+  .cone {
+    background: url("../img/mobile/image-gallery-cone.jpg");
+  }
+
+  .sugar {
+    background: url("../img/mobile/image-gallery-sugar-cubes.jpg");
+  }
+
+  .footer-footer {
+    height: 200px;
+  }
+  .footer-footer__nav {
+    text-align: center;
+  }
+  .footer-footer__nav > a {
+    margin: 20px;
+    font-size: 17px;
+  }
+  .footer-footer__social-medias {
+    text-align: center;
+  }
+  .footer-footer__social-medias > a {
+    margin: 10px;
+  }
+}
 header {
   width: 100%;
   height: 490px;
@@ -647,7 +688,7 @@ header {
     margin: 50px 30px 80px 30px;
   }
 }
-@media (min-width: 420px) {
+@media (min-width: 1440px) {
   .client-testimonials {
     display: grid;
     grid-template-rows: 150px 1fr;
@@ -696,6 +737,52 @@ header {
   .sugar {
     grid-row: 2/3;
     grid-column: 2/3;
+  }
+}
+@media (max-width: 1440px) and (min-width: 420px) {
+  .footer-list-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+  }
+
+  .milk-bottles {
+    grid-column: 1/2;
+  }
+
+  .orange {
+    grid-column: 2/3;
+  }
+
+  .cone {
+    grid-column: 3/4;
+  }
+
+  .sugar {
+    grid-column: 4/5;
+  }
+}
+@media (min-width: 1440px) {
+  .footer-list-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450px;
+  }
+
+  .milk-bottles {
+    grid-column: 1/2;
+  }
+
+  .orange {
+    grid-column: 2/3;
+  }
+
+  .cone {
+    grid-column: 3/4;
+  }
+
+  .sugar {
+    grid-column: 4/5;
   }
 }
 

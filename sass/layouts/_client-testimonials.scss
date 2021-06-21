@@ -19,7 +19,7 @@
 }
 
 // -- DESKTOP --
-@media (min-width: $mobile){
+@media (min-width: $desktop){
   .client-testimonials{
     display: grid;
     grid-template-rows: 150px 1fr;

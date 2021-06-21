@@ -25,3 +25,45 @@
     grid-column: 2 / 3;
   }
 }
+
+// -- TABLET --
+@media (max-width: $desktop) and (min-width: $mobile){
+  .footer-list-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+  }
+  .milk-bottles{
+    grid-column: 1 / 2;
+  }
+  .orange{
+    grid-column: 2 / 3;
+  }
+  .cone{
+    grid-column: 3 / 4;
+  }
+  .sugar{
+    grid-column: 4 / 5;
+  }
+}
+
+// -- DESKTOP --
+@media (min-width: $desktop){
+  .footer-list-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 450px;
+  }
+  .milk-bottles{
+    grid-column: 1 / 2;
+  }
+  .orange{
+    grid-column: 2 / 3;
+  }
+  .cone{
+    grid-column: 3 / 4;
+  }
+  .sugar{
+    grid-column: 4 / 5;
+  }
+}
