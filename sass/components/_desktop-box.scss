@@ -1,0 +1,55 @@
+@media (min-width: $desktop) {
+
+  // TWO FIRST TEXT CENTRAL BOX
+  .mid-content__text {
+    padding: 100px 120px;
+    & > h3{
+      font-size: 52px;
+      text-align: left;
+    }
+    & > p{
+      font-size: 20px;
+    }
+    & > a{
+      & > div{
+        width: 120px;
+        height: 10px;
+        border-radius: 5px;
+        top: 29px;
+        left: -2px;
+      }
+    }
+  }
+
+  // TWO FIRST IMG CENTRAL BOX
+
+  .egg-img {
+    background: url("../img/desktop/image-transform.jpg") no-repeat;
+    background-size: cover;
+  }
+  .cup-img {
+    background: url("../img/desktop/image-stand-out.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  //TWO SECOND TEXT / IMG BOX
+  .article-design {
+    background-position: top !important;
+    background-size: cover !important;
+    padding: 150px 200px;
+    & > h3{
+      margin-top: 330px;
+      font-size: 32px;
+    }
+    & > p{
+      font-size: 18px;
+    }
+    &__one {
+      background: url("../img/desktop/image-graphic-design.jpg");
+    }
+
+    &__two {
+      background: url("../img/desktop/image-photography.jpg");
+    }
+  }
+}

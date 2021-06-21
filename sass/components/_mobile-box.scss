@@ -30,6 +30,16 @@
 
   // TWO FIRST IMG CENTRAL BOX
 
+  .egg-img{
+    background: url("../img/mobile/image-transform.jpg");
+  }
+  .cup-img{
+    background: url("../img/mobile/image-stand-out.jpg");
+  }
+  .mid-content__img{
+    background-position: center!important;
+    background-size: cover!important;
+  }
 
   //TWO SECOND TEXT / IMG BOX
   .article-design{

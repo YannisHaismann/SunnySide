@@ -105,19 +105,6 @@ a {
   background-color: pink;
 }
 
-.mid-content__img {
-  background-position: center !important;
-  background-size: cover !important;
-}
-
-.egg-img {
-  background: url("../img/mobile/image-transform.jpg");
-}
-
-.cup-img {
-  background: url("../img/mobile/image-stand-out.jpg");
-}
-
 .article-design > h3 {
   text-align: center;
   color: #23303e;
@@ -163,6 +150,19 @@ a {
     transform: translate(-50%, -10%);
   }
 
+  .egg-img {
+    background: url("../img/mobile/image-transform.jpg");
+  }
+
+  .cup-img {
+    background: url("../img/mobile/image-stand-out.jpg");
+  }
+
+  .mid-content__img {
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
   .article-design {
     background-position: top !important;
     background-size: cover !important;
@@ -196,6 +196,19 @@ a {
     width: 130px;
   }
 
+  .egg-img {
+    background: url("../img/mobile/image-transform.jpg");
+  }
+
+  .cup-img {
+    background: url("../img/mobile/image-stand-out.jpg");
+  }
+
+  .mid-content__img {
+    background-position: center !important;
+    background-size: cover !important;
+  }
+
   .article-design {
     background-position: top !important;
     background-size: cover !important;
@@ -213,6 +226,54 @@ a {
   }
   .article-design > p {
     font-size: 18px;
+  }
+}
+@media (min-width: 1440px) {
+  .mid-content__text {
+    padding: 100px 120px;
+  }
+  .mid-content__text > h3 {
+    font-size: 52px;
+    text-align: left;
+  }
+  .mid-content__text > p {
+    font-size: 20px;
+  }
+  .mid-content__text > a > div {
+    width: 120px;
+    height: 10px;
+    border-radius: 5px;
+    top: 29px;
+    left: -2px;
+  }
+
+  .egg-img {
+    background: url("../img/desktop/image-transform.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .cup-img {
+    background: url("../img/desktop/image-stand-out.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .article-design {
+    background-position: top !important;
+    background-size: cover !important;
+    padding: 150px 200px;
+  }
+  .article-design > h3 {
+    margin-top: 330px;
+    font-size: 32px;
+  }
+  .article-design > p {
+    font-size: 18px;
+  }
+  .article-design__one {
+    background: url("../img/desktop/image-graphic-design.jpg");
+  }
+  .article-design__two {
+    background: url("../img/desktop/image-photography.jpg");
   }
 }
 header {
@@ -408,6 +469,31 @@ header {
   }
   .mid-content__text {
     margin: auto 50px auto 50px;
+  }
+  .mid-content__one {
+    order: 1;
+  }
+  .mid-content__two {
+    order: 2;
+  }
+  .mid-content__three {
+    order: 4;
+  }
+  .mid-content__four {
+    order: 3;
+  }
+  .mid-content > .article-design__one {
+    order: 5;
+  }
+  .mid-content > .article-design__two {
+    order: 6;
+  }
+}
+@media (min-width: 1440px) {
+  .mid-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px 700px 700px;
   }
   .mid-content__one {
     order: 1;

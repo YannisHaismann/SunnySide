@@ -62,3 +62,36 @@
     }
   }
 }
+
+// -- DESKTOP --
+
+@media (min-width: $desktop){
+  .mid-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 700px 700px 700px;
+    &__img{
+    }
+    &__text{
+
+    }
+    &__one{
+      order: 1;
+    }
+    &__two{
+      order: 2;
+    }
+    &__three{
+      order: 4;
+    }
+    &__four{
+      order: 3;
+    }
+    & > .article-design__one{
+      order: 5;
+    }
+    & > .article-design__two{
+      order: 6;
+    }
+  }
+}
