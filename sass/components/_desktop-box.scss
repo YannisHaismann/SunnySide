@@ -26,15 +26,17 @@
   .egg-img {
     background: url("../img/desktop/image-transform.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
   }
   .cup-img {
     background: url("../img/desktop/image-stand-out.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   //TWO SECOND TEXT / IMG BOX
   .article-design {
-    background-position: top !important;
+    background-position: center !important;
     background-size: cover !important;
     padding: 150px 200px;
     & > h3{
