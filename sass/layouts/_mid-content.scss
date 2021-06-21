@@ -1,0 +1,34 @@
+// -- GENERAL --
+
+// -- MOBILE --
+@media (max-width: $mobile){
+  .mid-content{
+    &__one{
+      order: 2;
+    }
+    &__two{
+      order: 1;
+    }
+    &__three{
+      order: 4;
+    }
+    &__four{
+      order: 3;
+    }
+    & > .article-design__one{
+      order: 5;
+    }
+    & > .article-design__two{
+      order: 6;
+    }
+    display: grid;
+    grid-template-rows: 290px 380px 290px 380px 580px 580px;
+    grid-template-columns: 100%;
+    &__text{
+      padding: 20px;
+      & > a {
+        margin-top: 20px;
+      }
+    }
+  }
+}
