@@ -276,6 +276,62 @@ a {
     background: url("../img/desktop/image-photography.jpg");
   }
 }
+.client-testimonials {
+  text-align: center;
+}
+.client-testimonials > h3 {
+  color: #818498;
+  letter-spacing: 2px;
+  font-family: "Fraunces", sans-serif;
+}
+.client-testimonials > .opinion-box > img {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+.client-testimonials > .opinion-box > blockquote {
+  font-family: "Barlow", sans-serif;
+  color: #5a636c;
+  line-height: 1.8em;
+}
+.client-testimonials > .opinion-box > h4 {
+  color: #23303e;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 900;
+  margin: 0px;
+}
+.client-testimonials > .opinion-box > p {
+  font-family: "Barlow", sans-serif;
+  color: #a7abae;
+}
+
+@media (max-width: 420px) {
+  .opinion-box > p {
+    font-size: 15px;
+  }
+  .opinion-box > img {
+    width: 85px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 420px) {
+  .opinion-box > img {
+    width: 85px;
+  }
+}
+@media (min-width: 1440px) {
+  .client-testimonials > h3 {
+    font-size: 30px;
+  }
+  .client-testimonials > div > img {
+    width: 125px;
+  }
+  .client-testimonials > div > blockquote {
+    font-size: 18px;
+  }
+  .client-testimonials > div > h4 {
+    font-size: 20px;
+  }
+}
 header {
   width: 100%;
   height: 490px;
@@ -512,6 +568,44 @@ header {
   }
   .mid-content > .article-design__two {
     order: 6;
+  }
+}
+.client-testimonials {
+  margin-top: 70px;
+}
+
+@media (max-width: 420px) {
+  .opinion-box {
+    margin: 50px 0px 80px;
+  }
+}
+@media (max-width: 1440px) and (min-width: 420px) {
+  .opinion-box {
+    margin: 50px 30px 80px 30px;
+  }
+}
+@media (min-width: 420px) {
+  .client-testimonials {
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+  }
+  .client-testimonials > h3 {
+    grid-row: 1/2;
+    grid-column: 1/4;
+  }
+  .client-testimonials > .opinion-box__one {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+  .client-testimonials > .opinion-box__two {
+    grid-row: 2/3;
+    grid-column: 2/3;
+  }
+  .client-testimonials > .opinion-box__tree {
+    grid-row: 2/3;
+    grid-column: 3/4;
   }
 }
 

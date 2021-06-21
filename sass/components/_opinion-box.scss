@@ -1,0 +1,73 @@
+// -- GENERAL --
+
+.client-testimonials{
+  text-align: center;
+  & > h3 {
+    color: $Dark-grayish-blue;
+    letter-spacing: 2px;
+    font-family: "Fraunces", sans-serif;
+  }
+  & > .opinion-box{
+    & > img{
+      border-radius: 50%;
+      margin: auto;
+      display: block;
+    }
+    & > blockquote{
+      font-family: "Barlow", sans-serif;
+      color: $Very-dark-grayish-blue;
+      line-height: 1.8em;
+    }
+    & > h4{
+      color: $Very-dark-desaturated-blue;
+      font-family: "Fraunces", sans-serif;
+      font-weight: 900;
+      margin: 0px;
+    }
+    & > p{
+      font-family: "Barlow", sans-serif;
+      color: $Grayish-blue;
+    }
+  }
+}
+
+// -- MOBILE --
+@media (max-width: $mobile){
+  .opinion-box{
+    & > p {
+      font-size: 15px;
+    }
+    & > img{
+      width: 85px;
+    }
+  }
+}
+
+// -- TABLET --
+@media (max-width: $desktop) and (min-width: $mobile){
+  .opinion-box{
+    & > img{
+      width: 85px;
+    }
+  }
+}
+
+// -- MOBILE --
+@media (min-width: $desktop){
+  .client-testimonials{
+    & > h3{
+      font-size: 30px;
+    }
+    & > div{
+      & > img{
+        width: 125px;
+      }
+      & > blockquote{
+        font-size: 18px;
+      }
+      & > h4{
+        font-size: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+// -- GENERAL --
+.client-testimonials{
+  margin-top: 70px;
+}
+
+// -- MOBILE --
+@media (max-width: $mobile){
+
+  .opinion-box{
+    margin: 50px 0px 80px;
+  }
+}
+
+// -- TABLET --
+@media (max-width: $desktop) and (min-width: $mobile){
+  .opinion-box{
+    margin: 50px 30px 80px 30px;
+  }
+}
+
+// -- DESKTOP --
+@media (min-width: $mobile){
+  .client-testimonials{
+    display: grid;
+    grid-template-rows: 150px 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+    & > h3{
+      grid-row: 1 / 2;
+      grid-column: 1 / 4;
+    }
+    & > .opinion-box__one{
+      grid-row: 2 / 3;
+      grid-column: 1 / 2;
+    }
+    & > .opinion-box__two{
+      grid-row: 2 / 3;
+      grid-column: 2 / 3;
+    }
+    & > .opinion-box__tree{
+      grid-row: 2 / 3;
+      grid-column: 3 / 4;
+    }
+  }
+}
