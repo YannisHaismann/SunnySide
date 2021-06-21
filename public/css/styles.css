@@ -106,6 +106,16 @@ ol {
   .top-site__nav__projects:hover::after {
     transform: scaleX(1);
   }
+  .top-site__nav__contact {
+    transition: all 220ms;
+    color: black;
+    background: linear-gradient(to left, white 50%, #1b96d3 50%) right;
+    background-size: 300% 200%;
+  }
+  .top-site__nav__contact:hover {
+    background-position: left;
+    color: white;
+  }
 }
 @media (max-width: 420px) {
   .top-site__nav {

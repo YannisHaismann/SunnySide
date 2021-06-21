@@ -39,7 +39,14 @@
       @include hover-top-btn(rgb(117, 218, 134), 85px);
     }
     &__contact{
-
+      transition: all 220ms;
+      color: black;
+      background: linear-gradient(to left, white 50%, rgb(27, 150, 211) 50%) right;
+      background-size: 300% 200%;
+      &:hover{
+        background-position: left;
+        color: white;
+      }
     }
   }
 }
