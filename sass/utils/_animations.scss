@@ -1,0 +1,26 @@
+@mixin hover-top-btn($colour: yellow, $width: 50px){
+    position: relative;
+  & > span{
+    z-index: 10;
+    position: relative;
+  }
+  &::after{
+    transition: all 170ms ease-in-out;
+    content: '';
+    display: block;
+    transform: scaleX(0);
+    transform-origin: left;
+    width: $width;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    top: 14px;
+    background-color: $colour;
+    opacity: 0.8;
+  }
+  &:hover{
+    &::after{
+      transform: scaleX(1);
+    }
+  }
+}

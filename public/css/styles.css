@@ -30,6 +30,83 @@ ol {
     border-radius: 25px;
   }
 }
+@media (min-width: 420px) {
+  .top-site__nav__about {
+    display: inline-block;
+    position: relative;
+  }
+  .top-site__nav__about > span {
+    z-index: 10;
+    position: relative;
+  }
+  .top-site__nav__about::after {
+    transition: all 170ms ease-in-out;
+    content: "";
+    display: block;
+    transform: scaleX(0);
+    transform-origin: left;
+    width: 61px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    top: 14px;
+    background-color: #fe7867;
+    opacity: 0.8;
+  }
+  .top-site__nav__about:hover::after {
+    transform: scaleX(1);
+  }
+  .top-site__nav__services {
+    display: inline-block;
+    position: relative;
+  }
+  .top-site__nav__services > span {
+    z-index: 10;
+    position: relative;
+  }
+  .top-site__nav__services::after {
+    transition: all 170ms ease-in-out;
+    content: "";
+    display: block;
+    transform: scaleX(0);
+    transform-origin: left;
+    width: 84px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    top: 14px;
+    background-color: #fad400;
+    opacity: 0.8;
+  }
+  .top-site__nav__services:hover::after {
+    transform: scaleX(1);
+  }
+  .top-site__nav__projects {
+    display: inline-block;
+    position: relative;
+  }
+  .top-site__nav__projects > span {
+    z-index: 10;
+    position: relative;
+  }
+  .top-site__nav__projects::after {
+    transition: all 170ms ease-in-out;
+    content: "";
+    display: block;
+    transform: scaleX(0);
+    transform-origin: left;
+    width: 85px;
+    height: 5px;
+    position: absolute;
+    border-radius: 5px;
+    top: 14px;
+    background-color: #75da86;
+    opacity: 0.8;
+  }
+  .top-site__nav__projects:hover::after {
+    transform: scaleX(1);
+  }
+}
 @media (max-width: 420px) {
   .top-site__nav {
     position: relative;
@@ -561,7 +638,7 @@ header {
   }
 
   header {
-    height: 750px;
+    height: 955px;
     background: url("../img/desktop/image-header.jpg") no-repeat, #3dbeff;
     background-size: 1400px 800px;
     background-position: bottom;

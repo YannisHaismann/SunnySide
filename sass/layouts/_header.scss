@@ -7,7 +7,6 @@ header{
   letter-spacing: 2px;
 }
 
-
 // -- MOBILE --
 @media (max-width: $mobile){
   .top-site__nav{
@@ -127,7 +126,7 @@ header{
     display: none;
   }
   header{
-    height: 750px;
+    height: 955px;
     background: url("../img/desktop/image-header.jpg") no-repeat, rgb(61, 190, 255);
     background-size: 1400px 800px;
     background-position: bottom;

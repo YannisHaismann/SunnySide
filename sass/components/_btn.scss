@@ -21,3 +21,25 @@
     border-radius: 25px;
   }
 }
+
+// -- ANIMATIONS [ DESKTOP -/- TABLET ] --
+
+@media (min-width: $mobile) {
+  .top-site__nav{
+    &__about{
+      display: inline-block;
+      @include hover-top-btn($Soft-red, 61px);
+    }
+    &__services{
+      display: inline-block;
+      @include hover-top-btn($Yellow, 84px);
+    }
+    &__projects{
+      display: inline-block;
+      @include hover-top-btn(rgb(117, 218, 134), 85px);
+    }
+    &__contact{
+
+    }
+  }
+}
