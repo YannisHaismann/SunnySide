@@ -183,5 +183,40 @@ header {
     display: block;
   }
 }
+@media (min-width: 1440px) {
+  .mobile-hamburger {
+    display: none;
+  }
+
+  header {
+    height: 750px;
+    background: url("../img/desktop/image-header.jpg") no-repeat, #3dbeff;
+    background-size: 1400px 800px;
+    background-position: bottom;
+  }
+
+  h1 {
+    margin: 0px;
+  }
+
+  .top-site {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+  }
+  .top-site__nav > a {
+    margin-right: 20px;
+  }
+
+  .top-content > h2 {
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 5px;
+  }
+  .top-content > img {
+    display: block;
+    margin: 100px auto;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

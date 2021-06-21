@@ -118,5 +118,43 @@ header{
       display: block;
     }
   }
+}
 
+// -- DESKTOP --
+
+@media (min-width: $desktop){
+  .mobile-hamburger{
+    display: none;
+  }
+  header{
+    height: 750px;
+    background: url("../img/desktop/image-header.jpg") no-repeat, rgb(61, 190, 255);
+    background-size: 1400px 800px;
+    background-position: bottom;
+  }
+  h1{
+    margin: 0px;
+  }
+  .top-site{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    &__nav{
+      & > a{
+        margin-right: 20px;
+      }
+
+    }
+  }
+  .top-content{
+    & > h2{
+      font-size: 48px;
+      text-align: center;
+      letter-spacing: 5px;
+    }
+    & > img{
+      display: block;
+      margin: 100px auto;
+    }
+  }
 }
