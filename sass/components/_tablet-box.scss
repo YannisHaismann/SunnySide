@@ -1,0 +1,49 @@
+@media (max-width: $desktop) and (min-width: $mobile){
+
+  // TWO FIRST TEXT CENTRAL BOX
+  .mid-content__text{
+    & > h3{
+      text-align: left;
+      font-size:  32px;
+      margin: 0px;
+    }
+    & > p{
+      font-size: 18px;
+      margin-top: 20px;
+    }
+    & > a{
+      & > div{
+        top: 28px;
+        left: -7px;
+        height: 10px;
+        width: 130px;
+      }
+    }
+  }
+
+
+  // TWO FIRST IMG CENTRAL BOX
+
+
+
+  //TWO SECOND TEXT / IMG BOX
+  .article-design{
+    background-position: top !important;
+    background-size: cover !important;
+    padding: 30px;
+    &__one {
+      background: url("../img/desktop/image-graphic-design.jpg");
+    }
+    &__two {
+      background: url("../img/desktop/image-photography.jpg");
+    }
+    & > h3{
+      font-size: 26px;
+      margin-top: 270px;
+    }
+    & > p {
+      font-size: 18px;
+    }
+  }
+
+}

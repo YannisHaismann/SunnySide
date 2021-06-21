@@ -32,3 +32,33 @@
     }
   }
 }
+
+// -- TABLET --
+@media (min-width: $mobile) and (max-width: $desktop){
+  .mid-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 500px 500px;
+    &__text{
+      margin: auto 50px auto 50px;
+    }
+    &__one{
+      order: 1;
+    }
+    &__two{
+      order: 2;
+    }
+    &__three{
+      order: 4;
+    }
+    &__four{
+      order: 3;
+    }
+    & > .article-design__one{
+      order: 5;
+    }
+    & > .article-design__two{
+      order: 6;
+    }
+  }
+}

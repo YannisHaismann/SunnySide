@@ -1,0 +1,50 @@
+@media (max-width: $mobile){
+
+  // TWO FIRST TEXT CENTRAL BOX
+  .mid-content__text{
+    width: auto;
+    & > p{
+      text-align: center;
+    }
+    & > h3{
+      font-size: 32px;
+    }
+    & > a{
+      height: 40px;
+      & > p{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      & > div{
+        top: 100%;
+        left: 50%;
+        height: 9px;
+        width: 130px;
+        transform: translate(-50%, -10%);
+      }
+    }
+  }
+
+
+
+  // TWO FIRST IMG CENTRAL BOX
+
+
+  //TWO SECOND TEXT / IMG BOX
+  .article-design{
+    background-position: top !important;
+    background-size: cover !important;
+    padding: 20px;
+    & > h3{
+      margin-top: 350px;
+      font-size: 32px;
+    }
+    &__one {
+      background: url("../img/mobile/image-graphic-design.jpg");
+    }
+    &__two {
+      background: url("../img/mobile/image-photography.jpg");
+    }
+  }
+}
