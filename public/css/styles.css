@@ -12,6 +12,14 @@ ol {
   padding: 0px;
 }
 
+@keyframes animated-arrow {
+  0% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(50%);
+  }
+}
 @media (max-width: 420px) {
   .top-site__nav__contact {
     border-radius: 30px;
@@ -594,6 +602,10 @@ header {
   color: white;
   font-family: "Fraunces", serif !important;
   letter-spacing: 2px;
+}
+
+.arrow-anim {
+  animation: animated-arrow 1s ease-in-out infinite alternate;
 }
 
 @media (max-width: 420px) {

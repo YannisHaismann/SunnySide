@@ -7,6 +7,10 @@ header{
   letter-spacing: 2px;
 }
 
+.arrow-anim {
+  animation: animated-arrow 1s ease-in-out infinite alternate;
+}
+
 // -- MOBILE --
 @media (max-width: $mobile){
   .top-site__nav{
