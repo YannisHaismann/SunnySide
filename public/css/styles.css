@@ -321,7 +321,7 @@ ol {
   }
   .article-design > h3 {
     font-size: 26px;
-    margin-top: 270px;
+    margin-top: 320px;
   }
   .article-design > p {
     font-size: 18px;
@@ -379,7 +379,7 @@ ol {
     font-size: 20px;
   }
   .mid-content__text > a::after {
-    transition: all 200ms;
+    transition: all 200ms ease-in-out;
   }
   .mid-content__text > a:hover::after {
     transform: scaleX(3.3) scaleY(3.3);
@@ -820,7 +820,7 @@ header {
   .mid-content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 500px 500px 500px;
+    grid-template-rows: 500px 500px 600px;
   }
   .mid-content__text {
     margin: auto 50px auto 50px;
