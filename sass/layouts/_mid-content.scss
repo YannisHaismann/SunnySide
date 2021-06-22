@@ -95,3 +95,15 @@
     }
   }
 }
+
+// -- ULTRA WIDE --
+@media (min-width: 2600px){
+  .mid-content{
+    grid-template-rows: 1200px 1200px 1200px!important;
+  }
+  .article-design{
+    & > h3{
+      padding-top: 400px!important;
+    }
+  }
+}
