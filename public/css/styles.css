@@ -250,6 +250,7 @@ ol {
 @media (max-width: 420px) {
   .mid-content__text {
     width: auto;
+    text-align: center;
   }
   .mid-content__text > p {
     text-align: center;
