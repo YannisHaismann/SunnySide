@@ -66,6 +66,11 @@ var contentJSON = "content.json";
 readJsonFile(contentJSON).then(function (reponse){
     let content = JSON.parse(reponse);
 
+    if(document.documentElement.lang.toUpperCase() == 'FR'){
+        changeLanguage("FR", content);
+        $('.lang').attr('id', "FR");
+    }
+
     $('.lang').on('click', () => {
         if($('.lang').attr('id') == 'FR'){
             $('.lang').attr('id', "EN");
@@ -85,10 +90,10 @@ function changeLanguage(lang, content){
     let projects            = $('#projects');
     let contact             = $('#contact');
     let title               = $('#title');
-    let midContentOne       = [$('#midContentOneH3'), $('#midContentOneP'), $('#midContentOneA')];
-    let midContentTwo       = [$('#midContentTwoH3'), $('#midContentTwoP'), $('#midContentTwoA')];
-    let midContentThree     = [$('#midContentThreeH3'), $('#midContentThreeP'), $('#midContentThreeA')];
-    let midContentFour      = [$('#midContentFourH3'), $('#midContentFourP'), $('#midContentFourA')];
+    let midContentOne       = [$('#midContentOneH3'), $('#midContentOneP'), $('#midContentOneA > p')];
+    let midContentTwo       = [$('#midContentTwoH3'), $('#midContentTwoP'), $('#midContentTwoA > p')];
+    let midContentThree     = [$('#midContentThreeH3'), $('#midContentThreeP')];
+    let midContentFour      = [$('#midContentFourH3'), $('#midContentFourP')];
     let testimonialsTitle   = $('#testimonialsTitle');
     let testiOne            = [$('#testiOneBlockQuote'), $('#testiOneAuthor'), $('#testiOneJob')];
     let testiTwo            = [$('#testiTwoBlockQuote'), $('#testiTwoAuthor'), $('#testiTwoJob')];
