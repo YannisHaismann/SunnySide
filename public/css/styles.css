@@ -202,27 +202,30 @@ ol {
   font-weight: 900;
 }
 .mid-content__text > a {
-  display: block;
+  display: inline-block;
   color: #23303e;
   text-align: center;
   font-family: "Fraunces", serif;
   font-weight: 900;
   position: relative;
 }
-.mid-content__text > a > p {
-  position: absolute;
-  z-index: 20;
-  width: 100%;
-}
-.mid-content__text > a > div {
+.mid-content__text > a > span {
+  position: relative;
   z-index: 10;
+}
+.mid-content__text > a::after {
+  width: 100%;
+  height: 7px;
   position: absolute;
+  content: "";
+  left: 0px;
+  bottom: 1px;
   border-radius: 5px;
 }
-.mid-content .btn-learn-more__one > div {
-  background-color: #fdd302;
+.mid-content .btn-learn-more__one::after {
+  background-color: #fcd92a;
 }
-.mid-content .btn-learn-more__two > div {
+.mid-content .btn-learn-more__two::after {
   background-color: pink;
 }
 .mid-content .article-design > h3 {
@@ -253,21 +256,6 @@ ol {
   }
   .mid-content__text > h3 {
     font-size: 32px;
-  }
-  .mid-content__text > a {
-    height: 40px;
-  }
-  .mid-content__text > a > p {
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-  .mid-content__text > a > div {
-    top: 100%;
-    left: 50%;
-    height: 9px;
-    width: 130px;
-    transform: translate(-50%, -10%);
   }
 
   .egg-img {
@@ -304,16 +292,6 @@ ol {
     text-align: left;
     font-size: 32px;
     margin: 0px;
-  }
-  .mid-content__text > p {
-    font-size: 18px;
-    margin-top: 20px;
-  }
-  .mid-content__text > a > div {
-    top: 28px;
-    left: -7px;
-    height: 10px;
-    width: 130px;
   }
 
   .egg-img {
@@ -387,23 +365,10 @@ ol {
   .mid-content__text > p {
     font-size: 20px;
   }
-  .mid-content__text > a > div {
-    width: 120px;
-    height: 10px;
-    border-radius: 5px;
-    top: 29px;
-    left: -2px;
-    transition: all 160ms ease-in-out;
+  .mid-content__text > a::after {
+    transition: all 200ms;
   }
-
-  .btn-learn-more__one:hover > div {
-    transform: scaleX(3.3) scaleY(3.3);
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-  }
-
-  .btn-learn-more__two:hover > div {
+  .mid-content__text > a:hover::after {
     transform: scaleX(3.3) scaleY(3.3);
     border-radius: 50%;
     width: 15px;

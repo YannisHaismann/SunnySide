@@ -90,8 +90,8 @@ function changeLanguage(lang, content){
     let projects            = $('#projects');
     let contact             = $('#contact');
     let title               = $('#title');
-    let midContentOne       = [$('#midContentOneH3'), $('#midContentOneP'), $('#midContentOneA > p')];
-    let midContentTwo       = [$('#midContentTwoH3'), $('#midContentTwoP'), $('#midContentTwoA > p')];
+    let midContentOne       = [$('#midContentOneH3'), $('#midContentOneP'), $('#midContentOneA > span')];
+    let midContentTwo       = [$('#midContentTwoH3'), $('#midContentTwoP'), $('#midContentTwoA > span')];
     let midContentThree     = [$('#midContentThreeH3'), $('#midContentThreeP')];
     let midContentFour      = [$('#midContentFourH3'), $('#midContentFourP')];
     let testimonialsTitle   = $('#testimonialsTitle');
