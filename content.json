@@ -3,7 +3,7 @@
     "top-nav": {
       "about": "About",
       "services": "Services",
-      "projetcs": "Projects",
+      "projects": "Projects",
       "contact": "Contact"
     },
     "top-content": {
@@ -46,13 +46,14 @@
         "author": "Jennie F.",
         "job": "Business Owner"
       }
-    }
+    },
+    "background": "../img/royaume-uni.png"
   },
   "FR": {
     "top-nav": {
       "about": "À propos",
       "services": "Services",
-      "projetcs": "Projets",
+      "projects": "Projets",
       "contact": "Contact"
     },
     "top-content": {
@@ -95,6 +96,8 @@
         "author": "Jennie F.",
         "job": "Propiétaire d'un business"
       }
-    }
+    },
+    "background": "../img/france.png"
   }
+
 }

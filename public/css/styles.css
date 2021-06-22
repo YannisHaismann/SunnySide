@@ -1004,5 +1004,20 @@ header {
     grid-column: 4/5;
   }
 }
+.lang {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+#EN {
+  background-image: url("../img/royaume-uni.png");
+}
+
+#FR {
+  background-image: url("../img/france.png");
+}
 
 /*# sourceMappingURL=styles.css.map */

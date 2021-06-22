@@ -1,3 +1,4 @@
 V ULTRA WIDE
 Version française avec détection de la langue et possibilité de changer entre EN et FR
+changer les animations d apparition box
 Autoprefixer
