@@ -15,8 +15,8 @@
       font-weight: 900;
     }
     & > a {
-      color: $Very-dark-desaturated-blue;
       display: block;
+      color: $Very-dark-desaturated-blue;
       text-align: center;
       font-family: "Fraunces", serif;
       font-weight: 900;
@@ -24,6 +24,7 @@
       & > p{
         position: absolute;
         z-index: 20;
+        width: 100%;
       }
       & > div{
         z-index: 10;

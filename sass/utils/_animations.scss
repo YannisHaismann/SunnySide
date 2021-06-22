@@ -1,4 +1,4 @@
-@mixin hover-top-btn($colour: yellow, $width: 50px){
+@mixin hover-top-btn($colour: yellow){
     position: relative;
   & > span{
     z-index: 10;
@@ -8,9 +8,8 @@
     transition: all 170ms ease-in-out;
     content: '';
     display: block;
-    transform: scaleX(0);
     transform-origin: left;
-    width: $width;
+    width: 0%;
     height: 5px;
     position: absolute;
     border-radius: 5px;
@@ -20,7 +19,7 @@
   }
   &:hover{
     &::after{
-      transform: scaleX(1);
+      width: 100%;
     }
   }
 }

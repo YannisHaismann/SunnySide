@@ -28,15 +28,15 @@
   .top-site__nav{
     &__about{
       display: inline-block;
-      @include hover-top-btn($Soft-red, 61px);
+      @include hover-top-btn($Soft-red);
     }
     &__services{
       display: inline-block;
-      @include hover-top-btn($Yellow, 84px);
+      @include hover-top-btn($Yellow);
     }
     &__projects{
       display: inline-block;
-      @include hover-top-btn(rgb(117, 218, 134), 85px);
+      @include hover-top-btn(rgb(117, 218, 134));
     }
     &__contact{
       transition: all 200ms;
