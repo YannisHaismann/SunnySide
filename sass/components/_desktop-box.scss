@@ -11,23 +11,35 @@
   .mid-content{
     &__one{
       animation-delay: 60ms;
+      transform: translateX(-200%);
+      animation-fill-mode: forwards;
     }
     &__two{
       animation-delay: 120ms;
+      transform: translateX(200%);
+      animation-fill-mode: forwards;
     }
     &__three{
       animation-delay: 180ms;
+      transform: translateX(-200%);
+      animation-fill-mode: forwards;
     }
     &__four{
       animation-delay: 240ms;
+      transform: translateX(200%);
+      animation-fill-mode: forwards;
     }
   }
   .article-design{
     &__one{
       animation-delay: 300ms;
+      transform: translateX(-200%);
+      animation-fill-mode: forwards;
     }
     &__two{
       animation-delay: 360ms;
+      transform: translateX(200%);
+      animation-fill-mode: forwards;
     }
   }
     // TWO FIRST TEXT CENTRAL BOX

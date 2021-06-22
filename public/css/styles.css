@@ -338,22 +338,34 @@ ol {
 
   .mid-content__one {
     animation-delay: 60ms;
+    transform: translateX(-200%);
+    animation-fill-mode: forwards;
   }
   .mid-content__two {
     animation-delay: 120ms;
+    transform: translateX(200%);
+    animation-fill-mode: forwards;
   }
   .mid-content__three {
     animation-delay: 180ms;
+    transform: translateX(-200%);
+    animation-fill-mode: forwards;
   }
   .mid-content__four {
     animation-delay: 240ms;
+    transform: translateX(200%);
+    animation-fill-mode: forwards;
   }
 
   .article-design__one {
     animation-delay: 300ms;
+    transform: translateX(-200%);
+    animation-fill-mode: forwards;
   }
   .article-design__two {
     animation-delay: 360ms;
+    transform: translateX(200%);
+    animation-fill-mode: forwards;
   }
 
   .mid-content__text {
