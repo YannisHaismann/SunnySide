@@ -58,43 +58,52 @@
 }
 
 // -- DESKTOP --
-@media (min-width: $desktop){
-  .footer-list-img{
-    & > div{
+@media (min-width: $desktop) {
+  .footer-list-img {
+    & > div {
       width: 100%;
       height: 100%;
       background-size: cover;
       background-position: center;
     }
   }
-  .milk-bottles{
+  .milk-bottles {
     background: url("../img/mobile/image-gallery-milkbottles.jpg");
   }
-  .orange{
+  .orange {
     background: url("../img/mobile/image-gallery-orange.jpg");
   }
-  .cone{
+  .cone {
     background: url("../img/mobile/image-gallery-cone.jpg");
   }
-  .sugar{
+  .sugar {
     background: url("../img/mobile/image-gallery-sugar-cubes.jpg");
   }
 
-  .footer-footer{
+  .footer-footer {
     height: 200px;
-    &__nav{
+
+    &__nav {
       text-align: center;
+
       & > a {
         margin: 20px;
         font-size: 17px;
       }
     }
-    &__social-medias{
+
+    &__social-medias {
       text-align: center;
-      & > a{
+
+      & > a {
         margin: 10px;
       }
     }
   }
 
+  .svg {
+    &:hover path {
+      fill: white;
+    }
+  }
 }
