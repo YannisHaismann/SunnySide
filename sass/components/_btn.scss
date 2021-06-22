@@ -22,9 +22,9 @@
   }
 }
 
-// -- ANIMATIONS [ DESKTOP -/- TABLET ] --
+// -- ANIMATIONS [ DESKTOP ] --
 
-@media (min-width: $mobile) {
+@media (min-width: $desktop) {
   .top-site__nav{
     &__about{
       display: inline-block;

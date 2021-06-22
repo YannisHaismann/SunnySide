@@ -17,8 +17,15 @@
         border-radius: 5px;
         top: 29px;
         left: -2px;
+        transition: all 160ms ease-in-out;
       }
     }
+  }
+  .btn-learn-more__one {
+    @include hover-mid-btn();
+  }
+  .btn-learn-more__two {
+    @include hover-mid-btn();
   }
 
   // TWO FIRST IMG CENTRAL BOX

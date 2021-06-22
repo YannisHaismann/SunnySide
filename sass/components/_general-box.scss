@@ -29,19 +29,16 @@
         z-index: 10;
         position: absolute;
         border-radius: 5px;
-        transition: all 160ms ease-in-out;
       }
     }
   }
 
   .btn-learn-more__one {
-    @include hover-mid-btn();
     & > div {
       background-color: rgb(253, 211, 2);
     }
   }
   .btn-learn-more__two {
-    @include hover-mid-btn();
     & > div {
       background-color: pink;
     }
