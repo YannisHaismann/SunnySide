@@ -29,36 +29,44 @@
         z-index: 10;
         position: absolute;
         border-radius: 5px;
+        transition: all 160ms ease-in-out;
       }
     }
   }
-}
-.btn-learn-more__one > div{
-  background-color: yellow;
-}
-.btn-learn-more__two > div{
-  background-color: pink;
-}
 
-//TWO SECOND TEXT / IMG BOX
-.article-design{
-  & > h3{
-    text-align: center;
-    color: $Very-dark-desaturated-blue;
-    font-family: "Fraunces", serif;
-    font-weight: 900;
+  .btn-learn-more__one {
+    @include hover-mid-btn();
+    & > div {
+      background-color: rgb(253, 211, 2);
+    }
   }
-  & > p{
-    font-family: "Barlow", sans-serif;
-    text-align: center;
-    line-height: 1.5em;
-    color: $Very-dark-grayish-blue;
-  }
-  & > .cherry-p{
-    color: $Dark-desaturated-cyan;
-  }
-  & > .orange-p{
-    color: $Very-dark-desaturated-blue;
+  .btn-learn-more__two {
+    @include hover-mid-btn();
+    & > div {
+      background-color: pink;
+    }
   }
 
+  //TWO SECOND TEXT / IMG BOX
+  .article-design{
+    & > h3{
+      text-align: center;
+      color: $Very-dark-desaturated-blue;
+      font-family: "Fraunces", serif;
+      font-weight: 900;
+    }
+    & > p{
+      font-family: "Barlow", sans-serif;
+      text-align: center;
+      line-height: 1.5em;
+      color: $Very-dark-grayish-blue;
+    }
+    & > .cherry-p{
+      color: $Dark-desaturated-cyan;
+    }
+    & > .orange-p{
+      color: $Very-dark-desaturated-blue;
+    }
+
+  }
 }
