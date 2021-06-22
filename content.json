@@ -1,0 +1,100 @@
+{
+  "EN": {
+    "top-nav": {
+      "about": "About",
+      "services": "Services",
+      "projetcs": "Projects",
+      "contact": "Contact"
+    },
+    "top-content": {
+      "h2": "WE ARE CREATIVES"
+    },
+    "mid-content": {
+      "one": {
+        "h3": "Transform you brand",
+        "p": "We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.",
+        "a": "LEARN MORE"
+      },
+      "two": {
+        "h3": "Stand out to the right audience",
+        "p": "Using a collaborative formula of designers, researches, photographers, videographers, and copywriters, we'll build and extend your brand in digital places.",
+        "a": "LEARN MORE"
+      },
+      "three": {
+        "h3": "Graphic Design",
+        "p": "Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients' attention."
+      },
+      "four": {
+        "h3": "Photography",
+        "p": "Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
+      }
+    },
+    "testimonials": {
+      "title": "CLIENT TESTIMONIALS",
+      "one": {
+        "blockquote": "We put trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
+        "author": "Emily R.",
+        "job": "Marketing Director"
+      },
+      "two": {
+        "blockquote": "Sunnyside's enthusiasm coupled with their keen interest in our brand's success made it a satisfying and enjoyable experience.",
+        "author": "Thomas S.",
+        "job": "Chief Operating Officer"
+      },
+      "three": {
+        "blockquote": "Incredible and result! Our sales increased over 400% when we worked with Sunnyside. Highly recommanded!",
+        "author": "Jennie F.",
+        "job": "Business Owner"
+      }
+    }
+  },
+  "FR": {
+    "top-nav": {
+      "about": "À propos",
+      "services": "Services",
+      "projetcs": "Projets",
+      "contact": "Contact"
+    },
+    "top-content": {
+      "h2": "NOUS SOMMES CRÉATIFS"
+    },
+    "mid-content": {
+      "one": {
+        "h3": "Transformez votre marque",
+        "p": "Nous sommes une agence créative avec un service complet spécialisé dans l'aide au développement de votre marque. Engagez vos clients à travers des visuels convaincants qui vont faire la plus grosse partie de votre marketing.",
+        "a": "EN SAVOIR PLUS"
+      },
+      "two": {
+        "h3": "Se mettre en valeur auprès du bon public",
+        "p": "En utilisant une équipe collaborative de concepteurs, de chercheurs, de photographes, de vidéastes et de rédacteurs, nous allons construire et étendre votre marque sur les supports digitals.",
+        "a": "EN SAVOIR PLUS"
+      },
+      "three": {
+        "h3": "Graphisme",
+        "p": "Les bons designs vous rendent mémorable. Nous créons des œuvres qui mettent en avant le message de votre marque et capture l'attention de vos potentiels clients."
+      },
+      "four": {
+        "h3": "Photographie",
+        "p": "Augmente ta crédibilité en obtenant la plus impressionnante haute qualité de photo qui améliore l'image de ton business."
+      }
+    },
+    "testimonials": {
+      "title": "TÉMOIGNAGES CLIENTS",
+      "one": {
+        "blockquote": "Nous avons fait confiance à SunnySide et leurs services. Ils se sont toujours assurés de répondre à nos attentes et cela dans les temps.",
+        "author": "Emily R.",
+        "job": "Directrice Marketing"
+      },
+      "two": {
+        "blockquote": "L'enthousiasme de SunnySide couplé avec leurs désirs de nous amener à la réussite a fait de cette expérience, une expérience agréable et répondant à nos attentes.",
+        "author": "Thomas S.",
+        "job": "Directeur d'exploitation"
+      },
+      "three": {
+        "blockquote": "Des résultats incroyables ! Nos ventes ont augmenté de 400% quand nous avons travaillé avec SunnySide. Je recommande grandement !",
+        "author": "Jennie F.",
+        "job": "Propiétaire d'un business"
+      }
+    }
+  }
+}
