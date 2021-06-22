@@ -494,6 +494,48 @@ ol {
     margin: 10px;
   }
 }
+@media (min-width: 420px) and (max-width: 1440px) {
+  .footer-list-img {
+    height: 300px;
+  }
+  .footer-list-img > div {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+
+  .milk-bottles {
+    background: url("../img/mobile/image-gallery-milkbottles.jpg");
+  }
+
+  .orange {
+    background: url("../img/mobile/image-gallery-orange.jpg");
+  }
+
+  .cone {
+    background: url("../img/mobile/image-gallery-cone.jpg");
+  }
+
+  .sugar {
+    background: url("../img/mobile/image-gallery-sugar-cubes.jpg");
+  }
+
+  .footer-footer {
+    height: 200px;
+  }
+  .footer-footer__nav {
+    text-align: center;
+  }
+  .footer-footer__nav > a {
+    margin: 20px;
+  }
+  .footer-footer__social-medias {
+    text-align: center;
+  }
+  .footer-footer__social-medias > a {
+    margin: 10px;
+  }
+}
 @media (min-width: 1440px) {
   .footer-list-img > div {
     width: 100%;
@@ -527,12 +569,19 @@ ol {
   .footer-footer__nav > a {
     margin: 20px;
     font-size: 17px;
+    transition: all 120ms;
+  }
+  .footer-footer__nav > a:hover {
+    color: white;
   }
   .footer-footer__social-medias {
     text-align: center;
   }
   .footer-footer__social-medias > a {
     margin: 10px;
+  }
+  .footer-footer__social-medias > a:hover {
+    color: white;
   }
 
   .svg:hover path {
@@ -846,7 +895,7 @@ header {
   .footer-list-img {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 250px;
+    grid-template-rows: 300px;
   }
 
   .milk-bottles {
