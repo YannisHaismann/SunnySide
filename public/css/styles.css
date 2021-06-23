@@ -46,6 +46,66 @@ ol {
     transform: translateY(0%);
   }
 }
+@media (min-width: 1440px) {
+  .reveal-left {
+    transform: translateX(-400px) scale(0.7);
+    opacity: 0;
+    transition: all 900ms ease-out;
+  }
+
+  .reveal-right {
+    transform: translateX(400px) scale(0.7);
+    opacity: 0;
+    transition: all 900ms ease-out;
+  }
+
+  .testimonialsTitle {
+    transform: scale(0.8) translateY(-100px);
+    opacity: 0;
+    transition: all 900ms;
+  }
+
+  .opinion-box {
+    transform: scale(0.5);
+    opacity: 0;
+    transition: all 900ms;
+  }
+
+  .cone {
+    transition: all 800ms;
+    transform: translateX(-900px);
+    opacity: 0;
+  }
+
+  .orange {
+    transition: all 800ms;
+    transform: translateX(900px);
+    opacity: 0;
+  }
+
+  .sugar {
+    transition: all 800ms;
+    transform: scale(0.5);
+    opacity: 0;
+  }
+
+  .milk-bottles {
+    transition: all 800ms;
+    transform: translateX(-400px);
+    opacity: 0;
+  }
+
+  .footer-footer {
+    transition: all 800ms;
+    transform: scale(0.8);
+    opacity: 0;
+  }
+
+  .reveal-visible {
+    transform: translateX(0px) translateY(0px) scale(1);
+    opacity: 1;
+  }
+}
 @media (max-width: 420px) {
   .top-site__nav__contact {
     border-radius: 30px;
@@ -328,46 +388,6 @@ ol {
   }
 }
 @media (min-width: 1440px) {
-  .mid-content__one, .mid-content__four, .article-design__one {
-    animation: animated-box-to-right 1s ease-in-out;
-  }
-
-  .mid-content__two, .mid-content__three, .article-design__two {
-    animation: animated-box-to-left 1s ease-in-out;
-  }
-
-  .mid-content__one {
-    animation-delay: 60ms;
-    transform: translateX(-200%);
-    animation-fill-mode: forwards;
-  }
-  .mid-content__two {
-    animation-delay: 120ms;
-    transform: translateX(200%);
-    animation-fill-mode: forwards;
-  }
-  .mid-content__three {
-    animation-delay: 180ms;
-    transform: translateX(-200%);
-    animation-fill-mode: forwards;
-  }
-  .mid-content__four {
-    animation-delay: 240ms;
-    transform: translateX(200%);
-    animation-fill-mode: forwards;
-  }
-
-  .article-design__one {
-    animation-delay: 300ms;
-    transform: translateX(-200%);
-    animation-fill-mode: forwards;
-  }
-  .article-design__two {
-    animation-delay: 360ms;
-    transform: translateX(200%);
-    animation-fill-mode: forwards;
-  }
-
   .mid-content__text {
     padding: 100px 120px;
   }

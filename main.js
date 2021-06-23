@@ -145,3 +145,40 @@ function readJsonFile(file){
         rawFile.send();
     })
 }
+
+/**
+ * -- ANIMATIONS ON SCROLL --
+ */
+const ratio = .1;
+const options = {
+    root: null,
+    rootMargin: '0px',
+    threshold: ratio
+}
+
+const handleIntersect = function (entries, observer) {
+        entries.forEach(function (entry){
+            if(entry.intersectionRatio > ratio){
+                entry.target.classList.add('reveal-visible');
+                observer.unobserve(entry.target);
+            }
+        });
+
+}
+
+const observer = new IntersectionObserver(handleIntersect, options);
+document.querySelectorAll('.reveal-left').forEach(function (r){
+    observer.observe(r);
+});
+document.querySelectorAll('.reveal-right').forEach(function (r){
+    observer.observe(r);
+});
+document.querySelectorAll('.opinion-box').forEach(function (r){
+    observer.observe(r);
+});
+observer.observe(document.querySelector('.cone'));
+observer.observe(document.querySelector('.orange'));
+observer.observe(document.querySelector('.milk-bottles'));
+observer.observe(document.querySelector('.sugar'));
+observer.observe(document.querySelector('.footer-footer'));
+observer.observe(document.querySelector('.testimonialsTitle'));
