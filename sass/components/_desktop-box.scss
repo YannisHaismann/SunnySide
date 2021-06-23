@@ -2,46 +2,6 @@
 
   //ANIMATIONS APPARITION BOX
 
-  .mid-content__one, .mid-content__four, .article-design__one{
-    animation: animated-box-to-right 1s ease-in-out;
-  }
-  .mid-content__two, .mid-content__three, .article-design__two{
-    animation: animated-box-to-left 1s ease-in-out;
-  }
-  .mid-content{
-    &__one{
-      animation-delay: 60ms;
-      transform: translateX(-200%);
-      animation-fill-mode: forwards;
-    }
-    &__two{
-      animation-delay: 120ms;
-      transform: translateX(200%);
-      animation-fill-mode: forwards;
-    }
-    &__three{
-      animation-delay: 180ms;
-      transform: translateX(-200%);
-      animation-fill-mode: forwards;
-    }
-    &__four{
-      animation-delay: 240ms;
-      transform: translateX(200%);
-      animation-fill-mode: forwards;
-    }
-  }
-  .article-design{
-    &__one{
-      animation-delay: 300ms;
-      transform: translateX(-200%);
-      animation-fill-mode: forwards;
-    }
-    &__two{
-      animation-delay: 360ms;
-      transform: translateX(200%);
-      animation-fill-mode: forwards;
-    }
-  }
     // TWO FIRST TEXT CENTRAL BOX
   .mid-content__text {
     padding: 100px 120px;

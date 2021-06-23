@@ -82,8 +82,6 @@ readJsonFile(contentJSON).then(function (reponse){
     });
 });
 
-changeLanguage("FR", content);
-
 function changeLanguage(lang, content){
     let about               = $('#about');
     let services            = $('#services');
