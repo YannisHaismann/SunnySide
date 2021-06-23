@@ -40,26 +40,6 @@
   }
 }
 
-@keyframes animated-box-to-right{
-  0%{
-    transform: translateX(-50%);
-    opacity: 0;
-  }
-  100%{
-    transform: translateX(0%);
-  }
-}
-
-@keyframes animated-box-to-left{
-  0%{
-    transform: translateX(50%);
-    opacity: 0;
-  }
-  100%{
-    transform: translateX(0%);
-  }
-}
-
 @keyframes animated-box-to-bottom{
   0%{
     transform: translateY(-50%);
@@ -72,19 +52,17 @@
 //ANIMATIONS APPARITION
 @media (min-width: $desktop) {
   .reveal-left {
-    transform: translateX(-400px) scale(0.7);
-
+    transform: scale(0.7);
     opacity: 0;
     transition: all 900ms ease-out;
   }
   .reveal-right {
-    transform: translateX(400px) scale(0.7);
-
+    transform: scale(0.7);
     opacity: 0;
     transition: all 900ms ease-out;
   }
   .testimonialsTitle {
-    transform: scale(0.8) translateY(-100px);
+    transform: scale(0.8);
     opacity: 0;
     transition: all 900ms;
   }
@@ -110,7 +88,7 @@
   }
   .milk-bottles {
     transition: all 800ms;
-    transform: translateX(-400px);
+    transform: translateX(-200px);
     opacity: 0;
   }
   .footer-footer {
@@ -120,6 +98,8 @@
   }
   .reveal-visible {
     transform: translateX(0px) translateY(0px) scale(1);
+    visibility: visible;
+    display: block;
     opacity: 1;
   }
 }
