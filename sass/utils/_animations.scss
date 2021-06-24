@@ -52,12 +52,12 @@
 //ANIMATIONS APPARITION
 @media (min-width: $desktop) {
   .reveal-left {
-    transform: scale(0.7);
+    transform: scale(0.7) translateX(-400px);
     opacity: 0;
     transition: all 900ms ease-out;
   }
   .reveal-right {
-    transform: scale(0.7);
+    transform: scale(0.7) translateX(400px);
     opacity: 0;
     transition: all 900ms ease-out;
   }
